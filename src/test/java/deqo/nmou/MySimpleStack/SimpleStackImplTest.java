@@ -46,7 +46,7 @@ public class SimpleStackImplTest {
     }
 
     @Test
-    public void testPeek() throws Exception{
+    public void testPeek() throws Exception {
         Item ita = new Item(new Integer(8));
         Assert.assertEquals(0,simpleStack.getSize());
         simpleStack.push(ita);
@@ -60,7 +60,7 @@ public class SimpleStackImplTest {
     }
 
     @Test
-    public void testPop() throws Exception{
+    public void testPop() throws Exception {
         Item ita = new Item(new Integer(8));
         Assert.assertEquals(0, simpleStack.getSize());
         simpleStack.push(ita);
